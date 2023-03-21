@@ -1,0 +1,71 @@
+*body {
+ margin: 0px;
+ padding: 0px;
+ box-sizing: border-box;
+}
+.user_img {
+ /* width: 50px; */
+ height: 150px;
+ padding-bottom: 70px;
+ /* background-color: blue; */
+}
+.user_icon {
+ text-align: center;
+}
+
+.institute_type {
+ display: flex;
+ /* background-color: grey; */
+ padding: 20px;
+ /* border-radius: 30%; */
+ box-shadow: 3px 3px 3px 3px grey;
+}
+.email_input {
+ padding-right: 20px;
+}
+
+.institute_options {
+ width: 400px;
+ border: none;
+}
+
+.email {
+ padding: 20px;
+ display: flex;
+ box-shadow: 3px 3px 3px 3px grey;
+ text-decoration: none;
+}
+
+.password {
+ padding: 20px;
+ display: flex;
+ box-shadow: 3px 3px 3px 3px grey;
+}
+
+.login {
+ /* padding: 20px; */
+ text-align: center;
+ padding-top: 50px;
+}
+
+#email {
+ width: 360px;
+ display: flex;
+}
+
+.side_icon {
+ padding-right: 20px;
+}
+
+.email_input {
+ width: 350px;
+ border: none;
+}
+.password_input {
+ width: 350px;
+ border: none;
+}
+
+input:focus {
+ outline: none;
+}
